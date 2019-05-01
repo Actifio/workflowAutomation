@@ -1,0 +1,7 @@
+@echo off
+C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File "C:\Program Files\Actifio\scripts\prepost.ps1" %* < NUL
+IF %ERRORLEVEL% EQU 0 GOTO Label0
+exit /B 1
+
+:Label0
+exit /B 0

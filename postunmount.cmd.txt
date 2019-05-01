@@ -1,0 +1,4 @@
+@echo off
+
+echo Running postunmount
+sqlcmd -S %sqlinstance% -W -s "," -Q "SET NOCOUNT ON; SELECT 'Name','State';SELECT name,state_desc FROM master.sys.databases" -h -1

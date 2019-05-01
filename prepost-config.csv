@@ -1,0 +1,6 @@
+phase,script
+preunmount,C:\Users\mike.salins\Documents\prepost-automation\preunmount.cmd
+postunmount,C:\Users\mike.salins\Documents\prepost-automation\postunmount.cmd
+premount,C:\Users\mike.salins\Documents\prepost-automation\premount.cmd
+postmount,C:\Users\mike.salins\Documents\prepost-automation\postmount1.cmd
+postmount,C:\Users\mike.salins\Documents\prepost-automation\postmount2.cmd
